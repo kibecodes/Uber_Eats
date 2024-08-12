@@ -5,7 +5,8 @@ import { View, SafeAreaView, StatusBar } from "react-native";
 
 export const SafeArea = styled(SafeAreaView)`
     flex: 1;
-    margin-top: ${StatusBar.currentHeight}px;
+    /* margin-top: ${StatusBar.currentHeight}px; */
+    margin-top: 0;
     background-color: white;
     padding: 16px;
 `
